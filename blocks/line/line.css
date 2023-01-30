@@ -1,0 +1,13 @@
+.line {
+    border: 0;
+    border-bottom: 1px solid rgba(84, 84, 84, 1);
+    margin-top: 41px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 836px) {
+    .line {
+        margin-top: 31.6px;
+        margin-bottom: 38.2px;
+    }  
+}

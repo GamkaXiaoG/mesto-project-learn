@@ -1,0 +1,14 @@
+.profile__info-bio {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+}
+
+@media screen and (max-width: 836px) {
+    .profile__info-bio {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

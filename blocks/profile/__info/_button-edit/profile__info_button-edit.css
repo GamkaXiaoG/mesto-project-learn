@@ -1,0 +1,22 @@
+.profile__info_button-edit {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255);
+    background-color: rgba(0, 0, 0, 1);
+    transition: opacity .3s ease-in-out;
+    align-self: center;
+    justify-content: center;
+}
+
+.profile__info_button-edit:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+@media screen and (max-width: 836px) {
+    .profile__info_button-edit {
+        width: 18px;
+        height: 18px;
+    }
+}

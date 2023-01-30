@@ -1,0 +1,25 @@
+.add-button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .3s ease-in-out;
+    margin-left: auto;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+@media screen and (max-width: 836px) {
+    .add-button {
+       width: 100%;
+       margin-top: 36px;
+       margin-bottom: 36px;
+    }
+}
