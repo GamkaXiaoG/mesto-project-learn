@@ -12,3 +12,5 @@
 2) CSS (With media queries)
 
 ## 🔗 Link on github-pages
+
+https://gamkaxiaog.github.io/mesto-project-learn/
