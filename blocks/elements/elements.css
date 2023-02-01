@@ -7,3 +7,9 @@
     padding-bottom: 66px;
     justify-content: center;
 }
+
+@media screen and (max-width: 836px) {
+    .elements {
+        padding-bottom: 48px;
+    }
+}
